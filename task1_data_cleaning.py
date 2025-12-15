@@ -1,6 +1,7 @@
 import pandas as pd
 
-df = pd.read_csv("iris.csv")
+df = pd.read_csv("Codveda_Data_Analytics/iris.csv")
+
 print("First 5 rows of the dataset:")
 print(df.head())
 print("\nDataset Info:")
@@ -15,5 +16,6 @@ print("\nUpdated column names:")
 print(df.columns)
 print("\nStatistical summary of dataset:")
 print(df.describe())
-df.to_csv("iris_cleaned.csv", index=False)
+df.to_csv("Codveda_Data_Analytics/iris_cleaned.csv", index=False)
+
 print("\nData cleaning completed successfully!")

@@ -1,7 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-df = pd.read_csv("iris_cleaned.csv")
+df = pd.read_csv("Codveda_Data_Analytics/iris_cleaned.csv")
+
 print("Shape of dataset:", df.shape)
 print("\nFirst 5 rows:")
 print(df.head())
