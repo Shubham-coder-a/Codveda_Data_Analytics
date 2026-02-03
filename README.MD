@@ -80,6 +80,10 @@ Codveda_Data_Analytics/
 - **Correlation Heatmap** – Feature relationships  
 
 📁 All visualizations are saved in the `outputs/` folder.
+![Histograms](outputs/histograms.png)
+![Boxplots](outputs/boxplot.png)
+![Scatter Plot](outputs/scatter_plot.png)
+![Correlation Heatmap](outputs/heatmap.png)
 
 ---
 
