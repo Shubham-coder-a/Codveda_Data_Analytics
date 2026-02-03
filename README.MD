@@ -93,6 +93,12 @@ Codveda_Data_Analytics/
 ### Model Used:
 - Logistic Regression  
 
+### 📌 Model Evaluation
+- **Accuracy:** 93%
+- **Precision & Recall (Setosa):** 100%
+- Strong classification performance across species
+
+
 ### Workflow:
 - Train-test split (80% training, 20% testing)  
 - Model training  
