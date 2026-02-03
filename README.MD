@@ -1,12 +1,14 @@
-📊 Codveda Data Analytics Internship Project
-📌 Project Overview
+# 📊 Codveda Data Analytics Internship Project
 
-This project is part of the Data Analytics Internship at Codveda Technologies.
-The objective of this project is to perform data cleaning, exploratory data analysis (EDA), data visualization, and machine learning modeling using the Iris dataset.
+## 📌 Project Overview
+This project was completed as part of the **Data Analytics Internship at Codveda Technologies**.  
+The objective of this project is to perform **data cleaning, exploratory data analysis (EDA), data visualization, and machine learning modeling** using the **Iris dataset**.
 
-The project demonstrates a complete end-to-end data analytics workflow, from raw data to predictive modeling.
+It demonstrates a complete **end-to-end data analytics workflow**, starting from raw data processing to predictive modeling and evaluation.
 
-📂 Project Structure
+---
+
+## 📂 Project Structure
 Codveda_Data_Analytics/
 │
 ├── task1_data_cleaning.py
@@ -16,138 +18,114 @@ Codveda_Data_Analytics/
 ├── iris_cleaned.csv
 │
 └── outputs/
-    ├── histograms.png
-    ├── boxplot.png
-    ├── scatter_plot.png
-    └── heatmap.png
+├── histograms.png
+├── boxplot.png
+├── scatter_plot.png
+└── heatmap.png
 
-🧪 Dataset Used
 
-Dataset: Iris Dataset
+---
 
-Features:
+## 🧪 Dataset Used
+**Dataset:** Iris Dataset  
 
-Sepal Length
+**Features:**
+- Sepal Length  
+- Sepal Width  
+- Petal Length  
+- Petal Width  
 
-Sepal Width
+**Target Variable:**  
+- Species (Setosa, Versicolor, Virginica)
 
-Petal Length
+---
 
-Petal Width
+## ✅ Task 1: Data Cleaning
+**File:** `task1_data_cleaning.py`
 
-Target Variable: Species (Setosa, Versicolor, Virginica)
+### Steps Performed:
+- Loaded the dataset  
+- Checked for missing values  
+- Removed duplicate rows  
+- Standardized column names  
+- Saved the cleaned dataset  
 
-✅ Task 1: Data Cleaning
+**Output:**
+- Cleaned dataset with **147 rows and 5 columns**
+- Saved as `iris_cleaned.csv`
 
-File: task1_data_cleaning.py
+---
 
-Steps Performed:
+## 📊 Task 2: Exploratory Data Analysis (EDA)
+**File:** `task2_eda.py`
 
-Loaded dataset
+### Analysis Included:
+- Summary statistics (mean, standard deviation, min, max)  
+- Species distribution analysis  
+- Initial data insights  
 
-Checked missing values
+**Key Insights:**
+- Dataset is well-balanced across species  
+- Petal features show strong variation among different species  
 
-Removed duplicate rows
+---
 
-Standardized column names
+## 📈 Task 3: Data Visualization
+**File:** `task3_visualization.py`
 
-Saved cleaned dataset
+### Visualizations Generated:
+- **Histograms** – Feature distributions  
+- **Boxplots** – Outlier and spread analysis  
+- **Scatter Plot** – Petal Length vs Petal Width (species-wise separation)  
+- **Correlation Heatmap** – Feature relationships  
 
-Output:
+📁 All visualizations are saved in the `outputs/` folder.
 
-Cleaned dataset with 147 rows and 5 columns
+---
 
-File saved as iris_cleaned.csv
+## 🤖 Task 4: Machine Learning Model
+**File:** `task4_ml_model.py`
 
-📊 Task 2: Exploratory Data Analysis (EDA)
+### Model Used:
+- Logistic Regression  
 
-File: task2_eda.py
+### Workflow:
+- Train-test split (80% training, 20% testing)  
+- Model training  
+- Prediction and evaluation  
 
-Analysis Included:
+### 📌 Results:
+- **Accuracy:** 93%  
+- **Setosa** classified with **100% precision and recall**  
+- Strong overall performance across all species  
 
-Summary statistics (mean, std, min, max)
+---
 
-Species distribution analysis
-
-Initial data insights
-
-Key Insight:
-
-Dataset is well-balanced across species
-
-Petal features show strong variation across species
-
-📈 Task 3: Data Visualization
-
-File: task3_visualization.py
-
-Visualizations Generated:
-
-Histograms – Feature distributions
-
-Boxplot – Outlier and spread analysis
-
-Scatter Plot – Petal Length vs Petal Width (species-wise separation)
-
-Correlation Heatmap – Feature relationships
-
-📁 All visualizations are saved in the outputs/ folder.
-
-🤖 Task 4: Machine Learning Model
-
-File: task4_ml_model.py
-
-Model Used:
-
-Logistic Regression
-
-Workflow:
-
-Train-test split (80%-20%)
-
-Model training
-
-Prediction and evaluation
-
-📌 Results:
-
-Accuracy: 93%
-
-Setosa classified with 100% precision and recall
-
-Strong overall performance across all species
-
-🏁 Conclusion
-
+## 🏁 Conclusion
 This project successfully demonstrates:
+- Data cleaning and preprocessing  
+- Exploratory data analysis  
+- Insightful data visualization  
+- Machine learning classification with high accuracy  
 
-Data cleaning and preprocessing
+The results highlight the importance of **petal features** in Iris species classification and showcase a complete data analytics pipeline.
 
-Exploratory data analysis
+---
 
-Insightful data visualization
+## 🛠️ Technologies Used
+- Python  
+- Pandas  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
 
-Machine learning classification with high accuracy
+---
 
-The results highlight the importance of petal features in Iris species classification and showcase a complete data analytics pipeline.
+## 👤 Author
+**Shubham Raju Nagpure**  
+Data Analytics Intern – Codveda Technologies  
 
-🛠️ Technologies Used
+---
 
-Python
-
-Pandas
-
-Matplotlib
-
-Seaborn
-
-Scikit-learn
-
-👤 Author
-
-Shubham Raju Nagpure
-Data Analytics Intern – Codveda Technologies
-
-🔗 Acknowledgement
-
-Thanks to Codveda Technologies for providing this internship opportunity and dataset for hands-on learning.
+## 🔗 Acknowledgement
+Thanks to **Codveda Technologies** for providing this internship opportunity and dataset for hands-on learning.
